@@ -1,0 +1,39 @@
+:root {
+    --mainColorForLetters: #d4af37;
+}
+
+body{
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+#greeting_and_navigator {
+    margin: 1em;
+    background-color: rgb(3, 3, 78);
+    border-radius: 8px;
+}
+
+.greeting_1 {
+    color: var(--mainColorForLetters);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 1%;
+    padding: 1%;
+    font-size: 2.3em;
+}
+
+.greeting_2 {
+    color: #d4af37;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 1%;
+    font-size: 2.3em;
+}
+
+p, li {
+    color: var(--mainColorForLetters);
+    font-size: 1.5rem;
+    padding: 0 2%;
+    font-family: Arial, sans-serif;
+}
